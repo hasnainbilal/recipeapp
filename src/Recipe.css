@@ -1,0 +1,14 @@
+.recipe {
+  margin: 20px;
+  text-align: left;
+  object-fit: cover;
+  width: 550px;
+  transition: transform 450ms;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.recipe:hover {
+  transform: scale(1.08);
+}
